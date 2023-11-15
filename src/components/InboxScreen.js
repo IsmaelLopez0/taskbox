@@ -13,6 +13,7 @@ export default function InboxScreen() {
   }, []);
 
   if (error) {
+    console.log({ error });
     return (
       <div className="page lists-show">
         <div className="wrapper-message">
