@@ -1,0 +1,105 @@
+
+Chromatic CLI v9.0.0
+https://www.chromatic.com/docs/cli
+
+Authenticating with Chromatic
+    → Connecting to https://index.chromatic.com
+Authenticated with Chromatic
+    → Using project token '****************f96a'
+Retrieving git information
+Retrieved git information
+    → Commit '42cf2a1' on branch 'main'; no ancestor found
+Collecting Storybook metadata
+Collected Storybook metadata
+    → Storybook 7.5.2 for React; using the @storybook/react-webpack5 builder (7.5.3); no supported addons found
+Initializing build
+Initialized build
+    → Build 1 initialized
+Building your Storybook
+    → Running command: yarn run build-storybook --output-dir /var/folders/3y/mmqpvnb52wn10ql8t_v73vvm0000gp/T/chromatic--21928-hwVBJIXee8db
+Storybook built in 12 seconds
+    → View build log at /Users/contentillo/Documents/Ismael/taskbox/build-storybook.log
+Publish your built Storybook
+    → Validating Storybook files
+Publishing your built Storybook
+    → Retrieving target location
+    → Starting publish
+    → [                    ] 1%
+    → [=                   ] 7%
+    → [==                  ] 11%
+    → [===                 ] 16%
+    → [====                ] 19%
+    → [====                ] 22%
+    → [=====               ] 25%
+    → [=====               ] 26%
+    → [======              ] 28%
+    → [======              ] 29%
+    → [======              ] 31%
+    → [======              ] 32%
+    → [=======             ] 34%
+    → [=======             ] 37%
+    → [========            ] 38%
+    → [========            ] 39%
+    → [========            ] 41%
+    → [========            ] 42%
+    → [=========           ] 43%
+    → [=========           ] 44%
+    → [=========           ] 46%
+    → [==========          ] 48%
+    → [==========          ] 50%
+    → [==========          ] 51%
+    → [==========          ] 52%
+    → [===========         ] 53%
+    → [===========         ] 54%
+    → [===========         ] 56%
+    → [===========         ] 57%
+    → [============        ] 59%
+    → [============        ] 60%
+    → [=============       ] 63%
+    → [=============       ] 64%
+    → [=============       ] 67%
+    → [==============      ] 70%
+    → [==============      ] 71%
+    → [===============     ] 73%
+    → [===============     ] 74%
+    → [===============     ] 75%
+    → [===============     ] 76%
+    → [================    ] 81%
+    → [================    ] 82%
+    → [=================   ] 83%
+    → [=================   ] 85%
+    → [==================  ] 88%
+    → [==================  ] 89%
+    → [==================  ] 92%
+    → [=================== ] 93%
+    → [=================== ] 95%
+    → [=================== ] 96%
+    → [=================== ] 97%
+    → [====================] 99%
+    → [====================] 100%
+Publish complete in 12 seconds
+    → View your Storybook at https://6554649f99f2d7f6b99b598e-kyaqqdcfwx.chromatic.com
+Verifying your Storybook
+    → This may take a few minutes
+Started build 1
+    → Continue setup at https://www.chromatic.com/setup?appId=6554649f99f2d7f6b99b598e
+Running 9 tests
+    → This may take a few minutes
+ℹ Speed up Continuous Integration
+Your project is linked to GitHub so Chromatic will report results there.
+This means you can pass the --exit-once-uploaded flag to skip waiting for build results.
+Read more here: https://www.chromatic.com/docs/cli#chromatic-options
+    → [==                  ] 1/9  InboxScreen › Default 
+    → [=======             ] 3/9  Task › Default 
+    → [=========           ] 4/9  Task › Pinned 
+    → [===========         ] 5/9  Task › Archived 
+    → [=============       ] 6/9  TaskList › Default 
+    → [================    ] 7/9  TaskList › With Pinned Tasks 
+    → [====================] 9/9  TaskList › Empty 
+✔ Build passed. Welcome to Chromatic!
+We found 3 components with 9 stories and took 9 snapshots.
+ℹ Please continue setup at https://www.chromatic.com/setup?appId=6554649f99f2d7f6b99b598e
+Build 1 auto-accepted
+    → Tested 9 stories across 3 components; captured 9 snapshots in 16 seconds
+
+
